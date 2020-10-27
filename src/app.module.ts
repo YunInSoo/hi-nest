@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { MoviceController } from './movice/movice.controller';
-import { MoviceService } from './movice/movice.service';
+import { MovieService } from './movice/movie.service';
 
 @Module({
   imports: [],
   controllers: [MoviceController],
-  providers: [MoviceService],
+  providers: [MovieService],
 })
 export class AppModule {}
